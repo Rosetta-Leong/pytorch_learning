@@ -39,8 +39,12 @@ if __name__ == '__main__':
     # print(a + X)
     # print((a * X).shape)
 
-    #指定张量沿哪一个轴来通过求和降低维度
-    #例：求和所有行的元素来降维（轴0）
+    '''
+    指定张量沿哪一个轴来通过求和降低维度
+    例如[5,4]沿轴0求和变为[4]一维向量
+    沿轴1求和变为[5]一维向量
+    '''
+    # 例：求和所有行的元素来降维（轴0）
     A_sum_axis0 = A.sum(axis=0)
     # print(A)
     # print(A_sum_axis0)
@@ -56,6 +60,7 @@ if __name__ == '__main__':
     # print(A.sum(axis=0) / A.shape[0])
 
     #计算总和或均值时保持轴数不变
+    #例如[5,4]对轴1求和且保持轴数不变则变为[5,1]
     sum_A = A.sum(axis=1, keepdims=True)
     # print(A)
     # print(sum_A)
