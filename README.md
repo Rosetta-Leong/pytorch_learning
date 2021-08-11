@@ -9,3 +9,5 @@ Course Video: https://www.bilibili.com/video/BV1Fb4y1D7Jt
 <br>
 kaggle Competition Summary:<br>
 1.California House Price:https://www.kaggle.com/c/california-house-prices
+<br>
+2.Classify Leaves:https://www.kaggle.com/c/classify-leaves
